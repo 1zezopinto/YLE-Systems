@@ -23,15 +23,7 @@ html {
     .navbar-toggler {
         margin-left: auto;
     }
-
-    .collapse.navbar-collapse {
-        position: absolute;
-        top: 70px;
-        right: 0;
-        background-color: #adb5bd3a;
-        width: 100%;
-        z-index: 1;
-    }
+    
 }
 
 .custom-navbar {
