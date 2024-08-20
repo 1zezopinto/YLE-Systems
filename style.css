@@ -39,6 +39,10 @@ html {
     margin-right: 36%;
 }
 
+.navbar-collapse {
+    text-align: right;
+}
+
 /* quem somos? */
 
 .quem-somos {
@@ -251,6 +255,7 @@ footer {
         margin-right: 10%;
         grid-template-columns: 1fr;
         text-align: center;
+        align-items: center;
     }
 
     .logo {
@@ -340,5 +345,19 @@ footer {
     .footer-section p,
     .footer-section ul {
         font-size: 12px;
+    }
+
+    .contato-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacao-contato {
+        text-align: center;
     }
 }
