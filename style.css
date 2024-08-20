@@ -45,6 +45,18 @@ html {
 
 /* quem somos? */
 
+@media (max-width: 576px) {
+    .quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-thumbnail {
+        margin: 0;
+    }
+}
 .quem-somos {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -316,11 +328,6 @@ footer {
     .img-thumbnail {
         width: 150px;
         height: 150px;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        margin: 0;
     }
 
     .card {
