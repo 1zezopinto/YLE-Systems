@@ -24,6 +24,10 @@ html {
     .navbar-toggler {
         margin-left: auto;
     }
+
+    .navbar-collapse {
+        background-color: #adb5bd86;
+    }
 }
 
 .custom-navbar {
@@ -58,7 +62,6 @@ html {
 .navbar-collapse {
     text-align: right;
     z-index: 100;
-    background-color: #adb5bd86;
 }
 
 /* banner */
