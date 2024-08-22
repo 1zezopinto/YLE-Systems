@@ -24,6 +24,10 @@ html {
     .navbar-toggler {
         margin-left: auto;
     }
+
+    .navbar-collapse {
+        background-color: rgba(250, 235, 215, 0.397);
+    }
     
 }
 
@@ -47,7 +51,6 @@ html {
 
 .nav-link {
     text-align: center;
-    color: white;
 }
 
 .logo {
