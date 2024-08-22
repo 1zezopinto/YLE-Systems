@@ -175,6 +175,10 @@ html {
     font-size: 25px;
 }
 
+.card-img-top {
+    background-color: white;
+}
+
 /* Contato */
 
 .contato-container {
