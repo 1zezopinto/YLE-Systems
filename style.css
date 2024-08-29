@@ -363,50 +363,6 @@ button.learn-more:active::before {
     color: inherit;
 }
 
-
-/* 
-.vetor-contato {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contato {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 4px solid black;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-#icone-whatsapp {
-    width: 45px;
-    height: 45px;
-}
-
-#icone-insta {
-    width: 44px;
-    height: 44px;
-}
-
-#icone-email {
-    width: 48px;
-    height: 35px;
-}
-
-.informacao-contato {
-    font-family: "Jetbrains Mono", monospace;
-    font-size: 25px;
-    margin: 0;
-}
-
-.tirar-estilo {
-    text-decoration: none;
-    color: inherit;
-} */
-
 /* Rodapé */
 
 footer {
@@ -554,12 +510,13 @@ footer {
 @media (max-width: 576px) {
 
     body {
-        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .quem-somos {
         margin: 2%;
-        gap: 60px;
+        gap: 40px;
     }
 
     .img-thumbnail {
@@ -568,7 +525,8 @@ footer {
     }
 
     .card {
-        width: 14rem;
+        width: 16rem;
+        align-items: center;
     }
 
     .topicos {
