@@ -31,11 +31,11 @@ html {
 }
 
 .cards :nth-child(2){
-    transition-delay: 600ms;
+    transition-delay: 300ms;
 }
 
 .cards :nth-child(3){
-    transition-delay: 900ms;
+    transition-delay: 600ms;
 }
 
 /* navbar */
@@ -666,7 +666,7 @@ footer {
 
 @media (max-width: 576px) {
     .quem-somos {
-        margin-top: -300px;
+        margin-top: -250px;
         /* Ajuste o valor conforme necessário */
     }
 }
