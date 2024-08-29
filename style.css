@@ -75,6 +75,7 @@ html {
     }
 
     .navbar-nav {
+        margin-top: 5px;
         padding: 0 10px;
         /* Adiciona padding nas laterais da navbar */
     }
