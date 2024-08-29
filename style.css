@@ -1,7 +1,17 @@
 *{
     border: 0;
-    padding: 10px;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* Remove margem padrão do body */
+}
+
+.main-content {
+    margin: 0 10px;
+    /* Adiciona margem lateral em dispositivos móveis */
 }
 
 html {
@@ -46,6 +56,18 @@ html {
     }
 }
 
+@media (max-width: 576px) {
+    .logo {
+        margin: 0 10px;
+        /* Ajusta margem lateral do logo */
+    }
+
+    .navbar-nav {
+        padding: 0 10px;
+        /* Adiciona padding nas laterais da navbar */
+    }
+}
+
 .custom-navbar {
     background-color: #adb5bd3a;
     height: 75px;
@@ -82,6 +104,20 @@ html {
 
 /* banner */
 
+@media (max-width: 576px) {
+    .banner {
+        margin: 0;
+        /* Remove margem no banner em dispositivos móveis */
+    }
+
+    .banner img {
+        width: 100px;
+        /* Ajusta o tamanho da imagem do banner */
+        height: auto;
+        /* Ajusta a altura automaticamente */
+    }
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -111,6 +147,7 @@ html {
     font-size: 25px;
 }
 
+/* Quem somos?*/
 
 @media (max-width: 576px) {
     .quem-somos {
@@ -121,6 +158,18 @@ html {
         gap: 20px;
     }
 
+}
+
+@media (max-width: 768px) {
+    .quem-somos {
+        padding: 0 10px;
+        /* Adiciona padding lateral na seção Quem Somos */
+    }
+
+    .conteudo-quem-somos {
+        padding: 0 10px;
+        /* Adiciona padding lateral ao conteúdo Quem Somos */
+    }
 }
 
 .quem-somos {
@@ -149,6 +198,13 @@ html {
 
 
 /* serviços */
+
+@media (max-width: 576px) {
+    .servicos-container {
+        padding: 0 10px;
+        /* Adiciona padding lateral na seção Serviços */
+    }
+}
 
 .servicos-container {
     display: flex;
@@ -265,6 +321,13 @@ button.learn-more:active::before {
 
 /* Contato */
 
+@media (max-width: 576px) {
+    .contato-container {
+        padding: 0 10px;
+        /* Adiciona padding lateral na seção Contato */
+    }
+}
+
 /* From Uiverse.io by andrew-demchenk0 */
 .wrapper {
     --font-color-dark: #323232;
@@ -364,6 +427,18 @@ button.learn-more:active::before {
 }
 
 /* Rodapé */
+
+@media (max-width: 576px) {
+    footer {
+        padding: 20px 10px;
+        /* Ajusta padding do rodapé em dispositivos móveis */
+    }
+
+    .footer-container {
+        padding: 0 10px;
+        /* Adiciona padding lateral no rodapé */
+    }
+}
 
 footer {
     background-color: #333;
@@ -567,5 +642,24 @@ footer {
 
     .informacao-contato {
         text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Centraliza os cards horizontalmente */
+        gap: 20px;
+    }
+
+    .card {
+        width: 90vw;
+        /* Define a largura dos cards para 90% da largura da viewport */
+        max-width: 500px;
+        /* Define uma largura máxima para evitar que os cards sejam muito largos em telas grandes */
+        margin: 0 auto;
+        /* Centraliza os cards horizontalmente */
     }
 }
