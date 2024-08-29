@@ -81,6 +81,7 @@ html {
 
     .navbar-collapse {
         margin-top: 15px;
+        background-color: gray;
     }
 }
 
