@@ -79,10 +79,13 @@ html {
         /* Adiciona padding nas laterais da navbar */
     }
 
-    .navbar-collapse {
-        margin-top: 15px;
-        background-color: gray;
+    .navbar-toggler {
+        margin-top: 10px;
     }
+
+    /* .navbar-collapse {
+        
+    } */
 }
 
 .custom-navbar {
