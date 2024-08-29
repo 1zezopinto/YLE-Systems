@@ -525,8 +525,9 @@ footer {
     }
 
     .card {
-        width: 16rem;
-        align-items: center;
+        width: 17rem;
+        display: grid;
+        place-items: center;
     }
 
     .topicos {
