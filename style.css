@@ -525,7 +525,7 @@ footer {
     }
 
     .card {
-        width: 17rem;
+        width: 14rem;
         display: grid;
         place-items: center;
     }
