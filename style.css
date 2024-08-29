@@ -663,3 +663,10 @@ footer {
         /* Centraliza os cards horizontalmente */
     }
 }
+
+@media (max-width: 576px) {
+    .quem-somos {
+        margin-top: 20px;
+        /* Ajuste o valor conforme necessário */
+    }
+}
