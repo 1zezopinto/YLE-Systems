@@ -37,28 +37,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // Inicializa o texto exibido
     updateText();
 });
-
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     const options = document.querySelectorAll('.input');
-//     const textBox = document.getElementById('text-box');
-
-//     const texts = {
-//         option1: "Telefone: (93) 99115-7295",
-//         option2: "Instagram: @yle.systems",
-//         option3: "E-mail: yle.contato@gmail.com"
-//     };
-
-//     function updateText() {
-//         const selectedOption = document.querySelector('.input:checked').value;
-//         textBox.textContent = texts[selectedOption];
-//         textBox.style.display = 'block';
-//     }
-
-//     options.forEach(option => {
-//         option.addEventListener('change', updateText);
-//     });
-
-//     // Inicializa o texto exibido
-//     updateText();
-// });

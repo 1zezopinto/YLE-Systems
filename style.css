@@ -347,7 +347,7 @@ button.learn-more:active::before {
     --bg-color: #fff;
     --main-color: #323232;
     position: relative;
-    width: 375px;
+    width: 360px;
     height: 66px;
     background-color: var(--bg-color);
     border: 2px solid var(--main-color);
