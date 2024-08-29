@@ -75,9 +75,12 @@ html {
     }
 
     .navbar-nav {
-        margin-top: 10px;
         padding: 0 10px;
         /* Adiciona padding nas laterais da navbar */
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
     }
 }
 
