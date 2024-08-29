@@ -271,6 +271,7 @@ button {
     text-decoration: none;
     font-family: inherit;
     font-size: 15px;
+    top: -15px;
 }
 
 button.learn-more {
@@ -292,7 +293,7 @@ button.learn-more::before {
     content: '';
     width: 100%;
     height: 100%;
-    top: 0;
+    top: -5px;
     left: 0;
     right: 0;
     bottom: 0;
