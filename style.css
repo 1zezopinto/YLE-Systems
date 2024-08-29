@@ -666,7 +666,7 @@ footer {
 
 @media (max-width: 576px) {
     .quem-somos {
-        margin-top: -100px;
+        margin-top: -300px;
         /* Ajuste o valor conforme necessário */
     }
 }
