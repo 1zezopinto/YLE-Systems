@@ -379,6 +379,7 @@ button.learn-more:active::before {
     margin-top: 15px;
     max-width: 375px;
     display: none;
+    box-shadow: 6px 6px;
 }
 
 .option {
