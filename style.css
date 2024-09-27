@@ -109,6 +109,9 @@ html {
 
 .nav-link {
     text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
 }
 
 .logo {
@@ -116,6 +119,7 @@ html {
     height: 50px;
     margin-left: 10%;
     margin-right: 36%;
+    margin-top: 10px;
 }
 
 .navbar-collapse {
@@ -245,7 +249,7 @@ html {
 .card {
     width: 360px;
     border-radius: 50px;
-    background: #e0e0e0;
+    background: #ffffff;
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
     width: 18rem;
     display: flex;
@@ -270,6 +274,12 @@ html {
 .card-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
+}
+
+.card-img {
+    width: 90%;
+    border-top-left-radius: calc(0.25rem - 5px);
+    border-top-right-radius: calc(0.25rem - 5px);
 }
 
 /* From Uiverse.io by Madflows */
@@ -357,6 +367,8 @@ button.learn-more:active::before {
 
 .img-portfolio {
     border-radius: 15px;
+    width: 80%;
+    height: auto;
 }
 
 /* Contato */
