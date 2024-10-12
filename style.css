@@ -125,6 +125,7 @@ html {
 .navbar-collapse {
     text-align: right;
     z-index: 100;
+    margin-top: 6px;
 }
 
 /* banner */
