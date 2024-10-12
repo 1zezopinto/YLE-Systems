@@ -247,14 +247,14 @@ html {
 }
 
 .card {
-    width: 360px;
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-    width: 18rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 360px !important;
+    border-radius: 50px !important;
+    background: #ffffff !important;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff !important;
+    width: 18rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
 }
 
 .card-body {
@@ -366,8 +366,8 @@ button.learn-more:active::before {
 }
 
 .img-portfolio {
-    border-radius: 15px;
-    width: 80%;
+    border-radius: 40px !important;
+    width: 90% !important;
     height: auto;
 }
 
@@ -653,7 +653,7 @@ footer {
     }
 
     .card {
-        width: 18rem;
+        width: 14rem;
         display: grid;
         place-items: center;
     }
