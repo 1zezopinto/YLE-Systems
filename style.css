@@ -86,7 +86,7 @@ html {
     .navbar-collapse {
         background-color: transparent;
         backdrop-filter: blur(10px);
-        margin-top: 6px;
+        margin-top: 20px;
     }
 }
 
