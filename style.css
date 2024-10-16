@@ -39,7 +39,7 @@ html {
 }
 
 .cards :nth-child(4) {
-    transition-delay: 800ms;    
+    transition-delay: 700ms;    
 }
 
 .conteudo :nth-child(2) {
