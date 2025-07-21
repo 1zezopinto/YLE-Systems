@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const textBox = document.getElementById('text-box');
 
     const texts = {
-        option1: '<a href="https://wa.me/93991157295">(93) 99115-7295</a>',
+        option1: '<a href="https://wa.me/93992029378">(93) 99202-9378</a>',
         option2: '<a href="https://www.instagram.com/yle.systems" target="_blank">@yle.systems</a>',
-        option3: '<a href="mailto:yle.contato@gmail.com">yle.contato@gmail.com</a>'
+        option3: '<a href="mailto:g4123ms@gmail.com">g4123ms@gmail.com</a>'
     };
 
     function updateText() {
